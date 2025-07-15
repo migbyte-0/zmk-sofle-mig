@@ -104,8 +104,8 @@
         all {
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans    &kp RIGHT_SHIFT      &trans     &trans  &trans     &trans      &trans  &trans
-&trans  &trans  &trans     &mo 9      &trans     &trans    &kp LG(DOWN_ARROW)   &trans     &trans  &trans     &trans      &trans  &trans
-&trans  &mo 8   &mo 7      &mo 5      &mo 2      &mo 9     &kp RG(LEFT_ARROW)   &trans     &mo 6   &kp LC(S)  &kp ESCAPE  &trans  &trans
+&trans  &trans  &trans     &mo 7      &trans     &trans    &kp LG(DOWN_ARROW)   &trans     &trans  &trans     &trans      &trans  &trans
+&trans  &mo 8   &mo 9      &mo 5      &mo 2      &mo 9     &kp RG(LEFT_ARROW)   &trans     &mo 6   &kp LC(S)  &kp ESCAPE  &trans  &trans
 &trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp RG(RIGHT_ARROW)  &trans     &trans  &trans     &trans      &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans    &trans               &kp LC(F)  &trans  &trans     &trans      &trans
             >;
@@ -153,11 +153,11 @@
 
         arrows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans        &trans          &trans
+&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &trans              &trans            &trans          &trans           &trans
+&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &kp DOWN_ARROW      &kp UP_ARROW      &trans          &trans           &trans
+&trans  &trans  &kp LS(LA(LEFT_ARROW))  &kp LG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &kp RS(RA(RIGHT_ARROW))    &trans  &trans  &kp DOWN_ARROW      &kp UP_ARROW      &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &kp LG(DOWN_ARROW)  &kp RG(UP_ARROW)  &trans          &trans           &trans
+&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &trans              &trans            &trans          &trans
             >;
         };
 
