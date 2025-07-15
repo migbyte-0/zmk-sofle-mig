@@ -7,20 +7,20 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&password'
   - $$mdi:keyboard-tab$$
   - Q
   - W
   - F
   - P
   - B
-  - $$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
   - J
   - L
   - U
@@ -33,7 +33,7 @@ layers:
   - S
   - T
   - G
-  - $$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-left-bold$$
   - M
   - N
   - E
@@ -46,7 +46,7 @@ layers:
   - C
   - D
   - V
-  - $$mdi:arrow-right-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - K
   - H
   - {t: ',', s: <}
