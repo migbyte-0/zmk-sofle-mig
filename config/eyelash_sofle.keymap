@@ -153,11 +153,11 @@
 
         arrows {
             bindings = <
-&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &trans              &trans            &trans          &trans           &trans
-&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &kp DOWN_ARROW      &kp UP_ARROW      &trans          &trans           &trans
-&trans  &trans  &kp LS(LA(LEFT_ARROW))  &kp LG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &kp RS(RA(RIGHT_ARROW))    &trans  &trans  &kp DOWN_ARROW      &kp UP_ARROW      &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &kp LG(DOWN_ARROW)  &kp RG(UP_ARROW)  &trans          &trans           &trans
-&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &trans              &trans            &trans          &trans
+&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &trans                  &trans                &trans          &trans           &trans
+&trans  &trans  &trans                  &kp LA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans                     &trans  &trans  &kp RS(RA(DOWN_ARROW))  &kp LS(LA(UP_ARROW))  &trans          &trans           &trans
+&trans  &trans  &kp LS(LA(LEFT_ARROW))  &kp LG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &kp RS(RA(RIGHT_ARROW))    &trans  &trans  &kp DOWN_ARROW          &kp UP_ARROW          &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans                  &kp LA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans                     &trans  &trans  &kp LG(DOWN_ARROW)      &kp RG(UP_ARROW)      &trans          &trans           &trans
+&trans  &trans  &trans                  &trans              &trans               &trans                     &trans  &trans  &trans                  &trans                &trans          &trans
             >;
         };
 
