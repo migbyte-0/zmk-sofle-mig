@@ -408,7 +408,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+W
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+X
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -428,7 +428,7 @@ layers:
   - {type: held}
   - {t: Sft+E, type: held alternate}
   - Sft+R
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Hyper+;, s: 'Hyper+:'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
