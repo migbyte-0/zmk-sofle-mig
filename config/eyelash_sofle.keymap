@@ -123,11 +123,11 @@
 
         vim {
             bindings = <
-&kp S   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &kp K   &trans    &trans  &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
+&kp S   &trans  &trans  &trans  &trans  &trans    &kp RS(RA(UP_ARROW))     &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(LA(DOWN_ARROW))   &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &kp K   &trans    &kp LS(LA(LEFT_ARROW))   &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp RS(RA(RIGHT_ARROW))  &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans                   &trans  &trans     &trans     &trans     &trans
             >;
         };
 
