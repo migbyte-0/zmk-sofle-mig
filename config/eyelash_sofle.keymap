@@ -106,7 +106,7 @@
             bindings = <
 &kp G   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mo 4   &mo 6   &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -124,11 +124,11 @@
 
         browser {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &kp LG(W)  &trans  &trans    &trans  &trans  &trans  &kp LS(LA(LG(G)))  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans
             >;
         };
 
