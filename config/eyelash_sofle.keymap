@@ -104,7 +104,7 @@
         all {
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans     &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans     &trans  &trans     &trans  &trans  &trans
+&trans  &trans  &trans     &mo 9      &trans     &trans    &trans  &trans     &trans  &trans     &trans  &trans  &trans
 &trans  &mo 8   &mo 7      &mo 5      &mo 2      &mo 9     &trans  &trans     &mo 6   &kp LC(S)  &trans  &trans  &trans
 &trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &trans  &trans     &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans    &trans  &kp LC(F)  &trans  &trans     &trans  &trans
@@ -161,13 +161,13 @@
             >;
         };
 
-        layer_9 {
+        raycast {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans                 &trans                 &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans                 &trans                 &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LS(LC(COMMA))  &kp LS(LA(LC(LG(U))))  &kp LC(LA(LS(LG(I))))  &kp LC(LA(LS(X)))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans                 &trans                 &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans                 &trans                 &trans
             >;
         };
 
