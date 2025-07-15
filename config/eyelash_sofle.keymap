@@ -96,7 +96,7 @@
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mo 8   &mo 7      &mo 5      &mo 2      &kp W     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mo 8   &mo 7      &mo 5      &mo 2      &kp W     &trans  &trans  &mo 6   &trans  &trans  &trans  &trans
 &trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -124,11 +124,11 @@
 
         browser {
             bindings = <
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
-&trans  &trans  &trans  &kp LG(W)  &trans  &trans    &trans  &trans  &trans  &kp LS(LA(LG(G)))  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans             &trans  &trans
+&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &trans  &trans  &trans             &trans     &trans  &trans
+&trans  &trans             &trans                 &kp LG(W)          &trans             &trans               &trans  &trans  &trans  &kp LS(LA(LG(G)))  &trans     &trans  &trans
+&trans  &kp LS(LC(LA(F)))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)          &kp LS(R)  &trans  &trans
+&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &trans  &trans  &trans             &trans     &trans  &trans
+&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &trans  &trans  &trans             &trans     &trans
             >;
         };
 
