@@ -124,11 +124,11 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &trans  &trans  &trans             &trans     &trans  &trans
-&trans  &trans             &trans                 &kp LG(W)          &trans             &trans               &trans  &trans  &trans  &kp LS(LA(LG(G)))  &trans     &trans  &trans
-&trans  &kp LS(LC(LA(F)))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)          &kp LS(R)  &trans  &trans
-&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &trans  &trans  &trans             &trans     &trans  &trans
-&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &trans  &trans  &trans             &trans     &trans
+&trans  &trans             &trans                 &trans             &trans                 &trans               &trans  &trans  &trans  &trans             &trans     &trans                         &trans
+&trans  &trans             &trans                 &kp LG(W)          &kp LS(LA(LC(LG(X))))  &trans               &trans  &trans  &trans  &kp LS(LA(LG(G)))  &trans     &trans                         &trans
+&trans  &kp LS(LC(LA(F)))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(B)))  &kp LC(LA(LS(P)))      &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)          &kp LS(R)  &kp LS(LG(LC(LA(SEMICOLON))))  &trans
+&trans  &trans             &trans                 &trans             &trans                 &trans               &trans  &trans  &trans  &trans             &trans     &trans                         &trans
+&trans  &trans             &trans                 &trans             &trans                 &trans               &trans  &trans  &trans  &trans             &trans     &trans
             >;
         };
 
