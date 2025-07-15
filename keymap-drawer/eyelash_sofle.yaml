@@ -232,7 +232,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - browser
   - Ctl+S
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
