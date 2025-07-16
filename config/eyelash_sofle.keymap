@@ -105,7 +105,7 @@
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans    &kp RIGHT_SHIFT      &trans     &trans  &trans     &trans      &trans  &trans
 &trans  &trans  &trans     &mo 7      &trans     &trans    &kp LG(DOWN_ARROW)   &trans     &trans  &trans     &trans      &trans  &trans
-&trans  &mo 8   &mo 9      &mo 5      &mo 2      &mo 9     &kp RG(LEFT_ARROW)   &trans     &mo 6   &kp LC(S)  &kp ESCAPE  &mo 4   &trans
+&trans  &mo 8   &mo 9      &mo 5      &mo 2      &mo 9     &kp RG(LEFT_ARROW)   &kp TAB    &mo 6   &kp LC(S)  &kp ESCAPE  &mo 4   &trans
 &trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp RG(RIGHT_ARROW)  &trans     &trans  &trans     &trans      &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans    &trans               &kp LC(F)  &trans  &trans     &trans      &trans
             >;
