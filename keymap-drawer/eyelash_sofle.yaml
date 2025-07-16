@@ -295,7 +295,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - shortcuts
+  - $$mdi:keyboard-tab$$
   - Gui+W
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
