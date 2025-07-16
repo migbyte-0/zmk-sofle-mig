@@ -171,7 +171,7 @@
             >;
         };
 
-        GUI {
+        GUIkey {
             bindings = <
 &trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans     &trans     &trans         &trans          &trans             &trans
 &trans  &kp LG(Q)  &kp LG(W)  &kp LG(F)  &kp LG(P)  &kp LG(B)    &trans  &kp RG(J)  &kp RG(L)  &kp RG(U)      &kp RG(Y)       &kp RG(SEMICOLON)  &trans
