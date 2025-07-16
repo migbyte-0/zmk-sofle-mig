@@ -143,11 +143,11 @@
 
         function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans      &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans      &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp SPACE  &kp BACKSPACE  &kp RETURN  &kp RIGHT_SHIFT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans      &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans   &trans         &trans      &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans   &trans         &trans      &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp TAB  &kp BACKSPACE  &kp RETURN  &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans   &trans         &trans      &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans   &trans         &trans      &trans
             >;
         };
 
