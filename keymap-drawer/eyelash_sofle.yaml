@@ -224,9 +224,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - arrows
-  - raycast
-  - vim
   - workspaces
+  - vim
+  - raycast
   - raycast
   - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
@@ -614,9 +614,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+.
-  - {t: Meh+N, type: held}
+  - Meh+N
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Ctl+R
+  - {t: Sft+Ctl+R, type: held}
   - {t: Sft+Alt+Gui+G, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+Y
