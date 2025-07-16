@@ -229,7 +229,7 @@ layers:
   - workspaces
   - raycast
   - Gui+$$mdi:arrow-left-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - browser
   - Ctl+S
   - $$mdi:keyboard-esc$$
