@@ -113,11 +113,11 @@
 
         shortcuts {
             bindings = <
-&kp G   &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans     &trans  &trans  &trans
-&trans  &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans     &trans  &trans  &trans
-&trans  &kp LG(M)  &kp W   &kp LC(LG(F))  &trans  &trans    &trans  &trans  &kp TAB  &kp LG(W)  &trans  &trans  &trans
-&trans  &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans     &trans  &trans  &trans
-&trans  &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans     &trans  &trans
+&kp G   &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans       &trans         &trans  &trans
+&trans  &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans       &trans         &trans  &trans
+&trans  &kp LG(M)  &kp W   &kp LC(LG(F))  &trans  &trans    &trans  &trans  &kp TAB  &kp LS(TAB)  &kp RIGHT_GUI  &trans  &trans
+&trans  &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans       &trans         &trans  &trans
+&trans  &trans     &trans  &trans         &trans  &trans    &trans  &trans  &trans   &trans       &trans         &trans
             >;
         };
 
