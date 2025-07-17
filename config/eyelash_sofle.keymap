@@ -133,11 +133,11 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &trans  &trans  &trans             &trans     &trans                         &trans
-&trans  &trans             &trans                 &kp LG(W)          &kp LS(LA(LC(LG(SEMICOLON))))  &trans               &trans  &trans  &trans  &kp LS(LA(LG(G)))  &trans     &trans                         &trans
-&trans  &kp LS(LC(LA(F)))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(B)))  &kp LC(LA(LS(P)))              &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)          &kp LS(R)  &kp LS(LG(LC(LA(SEMICOLON))))  &trans
-&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &trans  &trans  &trans             &trans     &trans                         &trans
-&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &trans  &trans  &trans             &trans     &trans
+&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &trans     &trans  &trans             &trans     &trans                         &trans
+&trans  &trans             &trans                 &kp LG(W)          &kp LS(LA(LC(LG(SEMICOLON))))  &trans               &trans  &trans     &trans  &kp LS(LA(LG(G)))  &trans     &trans                         &trans
+&trans  &kp LS(LC(LA(F)))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(B)))  &kp LC(LA(LS(P)))              &kp LS(LA(LC(W)))    &trans  &trans     &trans  &kp LS(E)          &kp LS(R)  &kp LS(LG(LC(LA(SEMICOLON))))  &trans
+&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &trans     &trans  &trans             &trans     &trans                         &trans
+&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &kp LC(P)  &trans  &trans             &trans     &trans
             >;
         };
 
