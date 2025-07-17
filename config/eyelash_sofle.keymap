@@ -183,21 +183,21 @@
 
         figma {
             bindings = <
-&trans  &trans      &trans         &trans          &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &kp LG(C)      &kp LG(V)       &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp DELETE  &kp LA(LG(K))  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LG(LS(K))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans         &kp LA(LS(S))   &kp LG(D)         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans         &to 0           &trans            &kp LG(Z)        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans     &trans          &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &kp LG(C)  &kp LG(V)       &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp DELETE  &mo 12     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LA(LG(K))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans     &kp LA(LS(S))   &kp LG(D)         &kp LS(LG(K))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans     &to 0           &trans            &kp LG(Z)        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        layer_12 {
+        alignment {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &kp LA(W)  &kp LA(LG(P))  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(A)  &trans  &kp LA(H)  &kp LA(D)      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &kp LA(S)  &kp LG(K)      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans     &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
