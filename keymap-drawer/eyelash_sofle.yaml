@@ -227,7 +227,7 @@ layers:
   - workspaces
   - vim
   - raycast
-  - raycast
+  - shortcuts
   - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - browser
@@ -292,13 +292,13 @@ layers:
   - W
   - Ctl+Gui+F
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab-reverse$$
   - RIGHT GUI
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -617,7 +617,7 @@ layers:
   - Meh+N
   - Ctl+Sft+R
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+Y
   - {t: 'Sft+Ctl+,', s: Sft+Ctl+<}
