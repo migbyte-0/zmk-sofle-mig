@@ -1013,7 +1013,7 @@ layers:
   - Sft+B
   - Sft+W
   - Sft+E
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+M
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
