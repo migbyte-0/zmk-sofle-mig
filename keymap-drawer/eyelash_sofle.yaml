@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -227,7 +227,7 @@ layers:
   - workspaces
   - vim
   - raycast
-  - shortcuts
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
   - browser
@@ -292,7 +292,7 @@ layers:
   - W
   - Ctl+Gui+F
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
