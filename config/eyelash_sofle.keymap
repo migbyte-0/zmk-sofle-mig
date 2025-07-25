@@ -123,9 +123,9 @@
 
         vim {
             bindings = <
-&kp S   &trans  &trans            &trans  &trans            &trans    &mo 13                   &trans                 &trans  &trans  &trans  &trans  &trans
+&kp S   &trans  &trans            &trans  &trans            &trans    &mo 15                   &trans                 &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans            &trans  &trans            &trans    &kp LS(LA(DOWN_ARROW))   &trans                 &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(NUMBER_4)  &trans  &kp LC(NUMBER_6)  &trans    &kp LS(LA(LEFT_ARROW))   &trans                 &kp B   &kp W   &kp E   &kp L   &trans
+&trans  &mo 13  &kp LS(NUMBER_4)  &trans  &kp LC(NUMBER_6)  &trans    &kp LS(LA(LEFT_ARROW))   &trans                 &kp B   &kp W   &kp E   &kp L   &trans
 &trans  &trans  &trans            &trans  &trans            &trans    &kp RS(RA(RIGHT_ARROW))  &trans                 &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans            &trans  &trans            &trans    &trans                   &kp LG(LC(LA(LS(Y))))  &trans  &trans  &trans  &trans
             >;
@@ -203,11 +203,11 @@
 
         nvim {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(Y)  &kp LS(C)  &kp LS(D)  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -223,11 +223,11 @@
 
         supertvmotion {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp RS(B)  &kp RS(W)  &kp RS(E)  &kp RS(M)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans
+&trans  &trans            &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans      &trans
+&trans  &trans            &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans      &trans
+&trans  &kp LS(NUMBER_3)  &kp LS(H)  &kp LS(M)  &kp LS(L)  &trans    &trans  &trans  &kp RS(B)  &kp RS(W)  &kp RS(E)  &kp RS(N8)  &trans
+&trans  &trans            &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans      &trans
+&trans  &trans            &trans     &trans     &trans     &trans    &trans  &trans  &trans     &trans     &trans     &trans
             >;
         };
 
