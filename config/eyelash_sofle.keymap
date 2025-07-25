@@ -78,11 +78,11 @@
 
         numbers {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8        &kp F9        &kp F10       &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP        &kp HOME      &kp MINUS     &kp EQUAL
-&trans      &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5       &mmv MOVE_LEFT   &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT    &kp F11       &kp F12       &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans        &trans        &trans
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4             &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8        &kp F9        &kp F10       &trans
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK          &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP        &kp HOME      &kp MINUS     &kp EQUAL
+&trans      &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4       &kp NUMBER_5       &mmv MOVE_LEFT   &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR    &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT    &kp F11       &kp F12       &trans
+&kp C_MUTE  &trans           &trans          &trans           &kp LG(BACKSPACE)  &trans             &mkp LCLK        &trans           &trans           &trans        &trans        &trans
             >;
 
             display-name = "layer1";
@@ -105,7 +105,7 @@
             bindings = <
 &trans  &trans  &trans     &trans     &trans     &trans    &mo 21               &trans     &trans  &trans     &trans      &trans  &trans
 &trans  &trans  &trans     &mo 4      &trans     &to 18    &kp LG(DOWN_ARROW)   &trans     &trans  &trans     &trans      &trans  &trans
-&trans  &mo 8   &mo 2      &mo 5      &mo 16     &mo 4     &kp RG(LEFT_ARROW)   &kp TAB    &mo 6   &kp LC(S)  &kp ESCAPE  &mo 7   &trans
+&trans  &mo 8   &mo 2      &mo 5      &mo 16     &trans    &kp RG(LEFT_ARROW)   &kp TAB    &mo 6   &kp LC(S)  &kp ESCAPE  &mo 7   &trans
 &trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp RG(RIGHT_ARROW)  &trans     &trans  &trans     &trans      &trans  &trans
 &trans  &trans  &trans     &trans     &trans     &trans    &trans               &kp LC(F)  &mo 1   &trans     &trans      &trans
             >;
