@@ -1555,7 +1555,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+O
+  - Ctl+Alt+Y
   - {t: 'Gui+,', s: Gui+<}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
