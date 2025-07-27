@@ -314,7 +314,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LS(LG(LA(LC(D))))  &trans                 &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &kp LA(LS(LG(G)))  &kp LG(K)              &kp LA(LS(LC(LG(L))))  &kp LS(LA(LC(SLASH)))  &trans
+&trans  &trans  &trans  &mo 25  &trans  &trans    &trans  &trans         &kp LA(LS(LG(G)))  &kp LG(K)              &kp LA(LS(LC(LG(L))))  &kp LS(LA(LC(SLASH)))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
             >;
