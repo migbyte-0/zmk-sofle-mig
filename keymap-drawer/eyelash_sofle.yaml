@@ -1661,7 +1661,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+O
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+M
   - Hyper+W
   - raycastAppsThree
   - {t: '$$mdi:transfer$$', type: trans}
