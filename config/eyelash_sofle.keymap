@@ -312,11 +312,11 @@
 
         raycastApps {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &kp LS(LG(LA(LC(D))))  &trans                 &trans                 &trans
-&trans  &trans  &trans  &mo 25  &trans  &trans    &trans  &trans         &kp LA(LS(LG(G)))  &kp LG(K)              &kp LA(LS(LC(LG(L))))  &kp LS(LA(LC(SLASH)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans             &trans                 &trans                 &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &trans             &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans                 &trans                 &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans                 &kp LS(LG(LA(LC(D))))  &trans                 &trans                 &trans
+&trans  &trans  &trans  &mo 25  &trans  &trans    &trans  &kp LS(LG(Z))  &kp LA(LS(LG(G)))      &kp LG(K)              &kp LA(LS(LC(LG(L))))  &kp LS(LA(LC(SLASH)))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans                 &trans                 &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(Q))  &kp LS(LA(LG(LC(K))))  &trans                 &trans                 &trans
             >;
         };
 
@@ -324,19 +324,19 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &kp LS(LG(LA(LC(H))))  &trans                 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LG(LA(LC(LS(M))))  &kp LS(LA(LC(LG(W))))  &mo 26  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &kp LS(LA(LC(LG(O))))  &kp LG(LS(Z))          &kp LS(LA(LC(LG(W))))  &mo 26  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                 &trans                 &trans                 &trans                 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LG(LA(LS(B))))  &trans                 &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LG(LA(LS(B))))  &kp LG(LA(LS(LC(M))))  &trans                 &trans                 &trans
             >;
         };
 
         raycastAppsThree {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans                 &trans                 &trans                 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans                 &trans                 &trans                 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &kp LS(LA(LC(LG(R))))  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LG(LC(P))))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans                 &trans                 &trans                 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LG(LA(B)))  &trans                 &trans                 &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &kp LA(LC(Y))  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LG(LC(P))))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans             &trans         &trans                 &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LG(LA(B)))  &trans         &trans                 &trans                 &trans
             >;
         };
 
