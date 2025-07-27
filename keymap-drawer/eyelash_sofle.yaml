@@ -46,7 +46,7 @@ layers:
   - C
   - D
   - V
-  - Gui+$$mdi:arrow-right-bold$$
+  - vim
   - K
   - H
   - {t: ',', s: <}
@@ -485,7 +485,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - nvim
   - Sft+4
-  - {type: held}
+  - {type: held alternate}
   - Ctl+6
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Alt+$$mdi:arrow-left-bold$$
@@ -501,7 +501,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+AltGr+$$mdi:arrow-right-bold$$
+  - {t: 'Sft+AltGr+$$mdi:arrow-right-bold$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -513,7 +513,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+Y
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1476,7 +1476,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1606,7 +1606,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
