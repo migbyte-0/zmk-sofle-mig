@@ -1594,7 +1594,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+Z
   - Alt+Sft+Gui+G
   - Gui+K
   - Hyper+L
@@ -1621,7 +1621,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+Q
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1661,7 +1661,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+O
-  - Hyper+M
+  - Gui+Sft+Z
   - Hyper+W
   - raycastAppsThree
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1686,7 +1686,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+B
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Hyper+M
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1725,7 +1725,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Hyper+R
+  - Alt+Ctl+Y
   - Hyper+A
   - Hyper+P
   - {type: held}
