@@ -100,11 +100,11 @@
 
         vim {
             bindings = <
-&kp S   &trans  &trans     &trans  &trans            &trans    &mo 6                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans  &trans            &trans    &kp LS(LA(DOWN_ARROW))   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mo 4   &kp SLASH  &trans  &kp LC(NUMBER_6)  &trans    &kp LS(LA(LEFT_ARROW))   &trans  &kp B   &kp W   &kp E   &kp L   &trans
-&trans  &trans  &trans     &trans  &trans            &trans    &kp RS(RA(RIGHT_ARROW))  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans  &trans            &trans    &trans                   &mo 4   &trans  &trans  &trans  &trans
+&kp S   &trans        &trans     &trans  &trans            &trans    &mo 6                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans     &trans  &trans            &trans    &kp LS(LA(DOWN_ARROW))   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp QUESTION  &kp SLASH  &trans  &kp LC(NUMBER_6)  &trans    &kp LS(LA(LEFT_ARROW))   &trans  &kp B   &kp W   &kp E   &kp L   &trans
+&trans  &trans        &trans     &trans  &trans            &trans    &kp RS(RA(RIGHT_ARROW))  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans     &trans  &trans            &trans    &trans                   &mo 4   &trans  &trans  &trans  &trans
             >;
         };
 
