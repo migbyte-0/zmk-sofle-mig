@@ -306,7 +306,7 @@
 &trans  &trans              &trans  &kp LS(LA(LC(G)))  &kp LS(LC(Q))  &trans    &trans  &trans                 &trans             &kp LS(LA(LG(PERIOD)))  &trans                 &trans                 &trans
 &trans  &kp LS(LG(PERIOD))  &mo 24  &mo 27             &trans         &trans    &trans  &kp LS(LG(LC(LA(Y))))  &kp LS(LC(COMMA))  &kp LS(LA(LC(LG(U))))   &kp LC(LA(LS(LG(I))))  &kp LC(LA(LS(X)))      &trans
 &trans  &trans              &trans  &trans             &trans         &trans    &trans  &trans                 &trans             &trans                  &trans                 &kp LS(LC(LA(SLASH)))  &trans
-&trans  &trans              &trans  &trans             &trans         &trans    &trans  &kp RG(O)              &kp RG(COMMA)      &trans                  &trans                 &trans
+&trans  &trans              &trans  &trans             &trans         &trans    &trans  &kp LC(LA(Y))          &kp RG(COMMA)      &trans                  &trans                 &trans
             >;
         };
 
