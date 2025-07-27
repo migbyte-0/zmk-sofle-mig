@@ -1598,7 +1598,7 @@ layers:
   - Alt+Sft+Gui+G
   - Gui+K
   - Hyper+L
-  - {t: Meh+/, s: 'Meh+?'}
+  - Hyper+K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1621,7 +1621,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+Q
-  - Hyper+K
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
