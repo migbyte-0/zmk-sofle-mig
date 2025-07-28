@@ -212,21 +212,21 @@
 
         browserShortcuts {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LG(LS(P))  &kp LC(P)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans         &trans     &trans  &trans
+&trans  &trans  &trans  &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &kp LG(MINUS)  &kp LG(PLUS)  &trans    &trans  &trans  &kp LG(LS(P))  &kp LC(P)  &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans
             >;
         };
 
         browserBasics {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LG(Y)  &kp LG(LC(B))  &kp LG(EQUAL)  &kp LC(SLASH)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans         &trans         &trans
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
+&trans  &kp LC(LS(Q))  &kp LG(U)  &trans  &kp LG(M)  &trans    &trans  &trans  &kp LG(Y)  &kp LG(LC(B))  &kp LG(EQUAL)  &kp LC(SLASH)  &trans
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans         &trans
+&trans  &trans         &trans     &trans  &trans     &trans    &trans  &trans  &trans     &trans         &trans         &trans
             >;
         };
 
