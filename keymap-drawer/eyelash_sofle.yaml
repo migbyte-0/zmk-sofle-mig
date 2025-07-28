@@ -939,7 +939,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+0, s: Gui+)}
   - {t: Gui+-, s: Gui+_}
   - Gui++
   - {t: '$$mdi:transfer$$', type: trans}
