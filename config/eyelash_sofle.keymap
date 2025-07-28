@@ -202,21 +202,21 @@
 
         browser {
             bindings = <
-&trans  &trans             &trans                 &trans             &trans                         &trans               &mo 14  &trans  &trans  &trans             &trans         &trans                         &trans
-&trans  &trans             &trans                 &kp LG(W)          &kp LS(LA(LC(LG(SEMICOLON))))  &trans               &trans  &trans  &trans  &kp LS(LA(LG(G)))  &kp LS(LG(P))  &trans                         &trans
-&trans  &kp LS(LC(LA(F)))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(B)))  &kp LC(LA(LS(P)))              &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)          &kp LS(R)      &kp LS(LG(LC(LA(SEMICOLON))))  &trans
-&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &trans  &trans  &trans             &trans         &trans                         &trans
-&trans  &trans             &trans                 &trans             &trans                         &trans               &trans  &mo 14  &trans  &trans             &trans         &trans
+&trans  &trans             &trans                 &trans             &trans             &trans               &mo 15  &trans  &trans  &trans     &trans     &trans                         &trans
+&trans  &trans             &trans                 &kp LG(W)          &trans             &trans               &trans  &trans  &trans  &trans     &trans     &trans                         &trans
+&trans  &kp LS(LC(LA(F)))  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(B)))  &kp LC(LA(LS(P)))  &kp LS(LA(LC(W)))    &trans  &trans  &trans  &kp LS(E)  &kp LS(R)  &kp LS(LG(LC(LA(SEMICOLON))))  &trans
+&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &trans  &trans  &trans     &trans     &trans                         &trans
+&trans  &trans             &trans                 &trans             &trans             &trans               &trans  &mo 14  &trans  &trans     &trans     &trans
             >;
         };
 
         browserShortcuts {
             bindings = <
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&trans  &trans  &kp LG(N0)  &kp LG(MINUS)  &kp LG(PLUS)  &trans    &trans  &trans  &kp LG(LS(P))  &kp LC(P)  &trans  &trans  &trans
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans  &trans
-&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans  &trans
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                    &trans
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                    &trans
+&trans  &trans  &kp LG(N0)  &kp LG(MINUS)  &kp LG(PLUS)  &trans    &trans  &trans  &kp LG(LS(P))  &kp LC(P)  &kp LS(LA(LC(LG(X))))  &kp LC(LA(LG(LS(SEMI))))  &trans
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans                    &trans
+&trans  &trans  &trans      &trans         &trans        &trans    &trans  &trans  &trans         &trans     &trans                 &trans
             >;
         };
 
