@@ -420,7 +420,7 @@
             >;
         };
 
-        figmaNumbersTwo {
+        figmaNumTwo {
             bindings = <
 &trans  &trans        &trans        &trans        &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &kp N5        &kp LA(LG(P))  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
