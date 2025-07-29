@@ -404,9 +404,9 @@
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp N5           &trans  &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
 &trans  &trans        &kp LG(C)     &kp LG(V)       &trans            &trans           &trans  &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &kp DELETE    &mo 35        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LA(LG(K))    &trans  &trans        &trans  &trans  &trans  &trans  &trans
+&trans  &kp DEL       &kp LG(Z)     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LA(LG(K))    &trans  &trans        &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &kp LA(LS(S))   &kp LG(D)         &kp LS(LG(K))    &trans  &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &to 0           &trans            &mo 34           &trans  &trans        &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &to 0           &mo 35            &mo 34           &trans  &trans        &trans  &trans  &trans  &trans
             >;
         };
 
