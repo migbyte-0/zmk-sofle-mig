@@ -419,7 +419,7 @@
 &trans  &trans        &kp LG(C)     &kp LG(V)       &trans            &trans           &trans  &trans        &trans             &trans  &trans  &trans  &trans
 &to 0   &kp DEL       &kp LG(Z)     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LA(LG(K))    &trans  &trans        &new_behavior 0 0  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &kp LA(LS(S))   &kp LG(D)         &kp LS(LG(K))    &trans  &trans        &trans             &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &to 0           &mo 35            &mo 34           &trans  &trans        &trans             &trans  &trans  &trans
+&trans  &trans        &trans        &to 0           &mo 0             &mo 34           &trans  &trans        &trans             &trans  &trans  &trans
             >;
         };
 
@@ -430,16 +430,6 @@
 &to 0   &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        figmaNumTwo {
-            bindings = <
-&trans  &trans        &trans        &trans        &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &kp N5        &kp LA(LG(P))  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&to 0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &kp LA(S)     &kp LG(K)      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
