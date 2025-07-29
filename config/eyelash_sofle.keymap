@@ -77,11 +77,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4             &kp N5    &tog 5              &kp N6   &kp N7     &kp N8     &kp N9           &kp N0         &password
-&kp TAB     &kp Q         &kp W         &kp F             &kp P              &kp B     &kp LG(DOWN_ARROW)  &kp J    &kp L      &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
-&kp CAPS    &kp A         &kp R         &kp S             &kp T              &kp G     &kp LG(LEFT_ARROW)  &kp M    &kp N      &kp E      &kp I            &kp O          &kp APOS
-&kp LSHFT   &kp Z         &kp X         &kp C             &kp D              &kp V     &kp LEFT_SHIFT      &kp K    &kp H      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LA(BACKSPACE)  &mo 1     &kp ENTER           &kp RET  &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp N1        &kp N2        &kp N3            &kp N4         &kp N5           &tog 5              &kp N6     &kp N7       &kp N8     &kp N9           &kp N0         &password
+&kp TAB     &kp Q         &kp W         &kp F             &kp P          &kp B            &kp LG(DOWN_ARROW)  &kp J      &kp L        &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
+&kp CAPS    &kp A         &kp R         &kp S             &kp T          &kp G            &kp LG(LEFT_ARROW)  &kp M      &kp N        &kp E      &kp I            &kp O          &kp APOS
+&kp LSHFT   &kp Z         &kp X         &kp C             &kp D          &kp V            &kp LEFT_SHIFT      &kp K      &kp H        &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp BACKSPACE  &lt 1 LA(DEL)    &kp ENTER           &lt 5 RET  &lt 2 SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -90,11 +90,11 @@
 
         all {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans    &mo 5                &trans     &trans  &trans     &trans      &trans  &trans
-&trans  &trans  &trans     &mo 12     &trans     &to 33    &kp LG(DOWN_ARROW)   &trans     &trans  &kp LC(W)  &trans      &trans  &trans
-&trans  &mo 19  &mo 9      &mo 3      &mo 27     &trans    &kp RG(LEFT_ARROW)   &kp TAB    &mo 13  &kp LC(S)  &kp ESCAPE  &mo 18  &trans
-&trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp RG(RIGHT_ARROW)  &trans     &trans  &trans     &trans      &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &trans               &kp LC(F)  &mo 2   &trans     &trans      &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &mo 5                &trans     &trans      &trans     &trans      &trans  &trans
+&trans  &trans  &trans     &mo 12     &trans     &to 33    &kp LG(DOWN_ARROW)   &trans     &trans      &kp LC(W)  &trans      &trans  &trans
+&trans  &mo 19  &mo 9      &mo 3      &mo 27     &trans    &kp RG(LEFT_ARROW)   &kp TAB    &lt 13 TAB  &kp LC(S)  &kp ESCAPE  &mo 18  &trans
+&trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp RG(RIGHT_ARROW)  &trans     &trans      &trans     &trans      &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans               &kp LC(F)  &mo 2       &trans     &trans      &trans
             >;
         };
 
