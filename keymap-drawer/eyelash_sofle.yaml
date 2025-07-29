@@ -153,7 +153,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - END
-  - $$mdi:arrow-up-bold$$
+  - {t: kuru, h: toggle}
   - HOME
   - {t: '-', s: _}
   - {t: '=', s: +}
