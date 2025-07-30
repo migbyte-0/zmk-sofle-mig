@@ -66,7 +66,7 @@
             bindings = <
 &kp ESC     &kp N1        &kp N2        &kp N3            &kp N4             &kp N5    &tog 5              &kp N6   &kp N7     &kp N8     &kp N9           &kp N0         &to 33
 &kp TAB     &kp Q         &kp W         &kp F             &kp P              &kp B     &kp LG(DOWN_ARROW)  &kp J    &kp L      &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
-&kp CAPS    &kp A         &df base      &kp R         &kp S             &kp T              &kp G     &kp LG(LEFT_ARROW)  &kp M    &kp N      &kp E      &kp I            &kp O          &kp APOS
+&kp CAPS    &kp A         &kp R         &kp S             &kp T              &kp G     &kp LG(LEFT_ARROW)  &kp M    &kp N      &kp E      &kp I            &kp O          &kp APOS
 &kp LSHFT   &kp Z         &kp X         &kp C             &kp D              &kp V     &kp LEFT_SHIFT      &kp K    &kp H      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
 &kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LA(BACKSPACE)  &mo 1     &kp ENTER           &kp RET  &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
@@ -421,14 +421,14 @@
             >;
         };
 
-        figmaNumbersTwo {
-            bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &kp N5        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&tog 0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+       figmaNumbersTwo {
+    bindings = <
+&df base  &trans        &trans        &trans        &trans        &trans    &trans
+&trans    &trans        &trans        &kp N5        &trans        &trans    &trans
+&tog 0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans    &trans
+&trans    &trans        &trans        &trans        &trans        &trans    &trans
+&trans    &trans        &trans        &trans        &trans        &trans    &trans
             >;
-        };
+};
     };
 };
