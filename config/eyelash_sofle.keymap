@@ -78,11 +78,11 @@
 
         all {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans    &mo 5                &trans       &trans              &trans     &trans      &trans  &trans
-&trans  &trans  &trans     &mo 12     &trans     &to 1     &kp LG(DOWN_ARROW)   &trans       &trans              &kp LC(W)  &trans      &trans  &trans
-&to 0   &mo 19  &mo 9      &mo 3      &mo 27     &trans    &kp RG(LEFT_ARROW)   &kp TAB      &lt 13 TAB          &kp LC(S)  &kp ESCAPE  &mo 18  &trans
-&trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp RG(RIGHT_ARROW)  &trans       &trans              &trans     &trans      &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &trans               &lt 7 LC(F)  &lt 2 LEFT_CONTROL  &trans     &trans      &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &mo 5                &trans     &trans  &trans     &trans      &trans  &trans
+&trans  &trans  &trans     &mo 12     &trans     &to 1     &kp LG(DOWN_ARROW)   &trans     &trans  &kp LC(W)  &trans      &trans  &trans
+&to 0   &mo 19  &mo 9      &mo 3      &mo 27     &trans    &kp RG(LEFT_ARROW)   &kp TAB    &mo 13  &kp LC(S)  &kp ESCAPE  &mo 18  &trans
+&trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp RG(RIGHT_ARROW)  &trans     &trans  &trans     &trans      &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans    &trans               &kp LC(F)  &mo 2   &trans     &trans      &trans
             >;
         };
 
