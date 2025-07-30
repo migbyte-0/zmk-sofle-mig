@@ -407,7 +407,7 @@
 &trans  &trans        &kp LG(C)     &kp LG(V)       &trans            &trans           &trans  &trans        &trans  &trans  &trans  &trans  &trans
 &to 0   &kp DEL       &kp LG(Z)     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LA(LG(K))    &trans  &trans        &none   &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &kp LA(LS(S))   &kp LG(D)         &kp LS(LG(K))    &trans  &trans        &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &to 33          &mo 33            &mo 34           &trans  &trans        &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &to 0           &mo 35            &mo 34           &trans  &trans        &trans  &trans  &trans  &trans
             >;
         };
 
