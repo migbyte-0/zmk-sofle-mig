@@ -2268,7 +2268,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: 'Alt+$$mdi:backspace-reverse-outline$$', h: all}
+  - {t: 'Alt+$$mdi:backspace$$', h: all}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: vmotion}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
