@@ -385,7 +385,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: vim, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: layer1, type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
