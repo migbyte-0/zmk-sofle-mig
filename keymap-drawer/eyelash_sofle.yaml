@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  Defqult:
+  kuru:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - arrowMovements
   - workspaces
   - vim
@@ -157,7 +157,7 @@ layers:
   - HOME
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - '1'
   - '2'
   - '3'
@@ -222,7 +222,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - vmotion
   - vimCursor
   - {type: held}
@@ -287,7 +287,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Y
   - {t: Sft+C, type: held}
@@ -352,7 +352,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: A, type: held alternate}
   - S
   - {t: D, type: held alternate}
@@ -417,7 +417,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - Sft+3
   - Sft+H
   - {t: Sft+M, type: held}
@@ -482,7 +482,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held alternate}
   - {type: held alternate}
   - {type: held alternate}
@@ -547,7 +547,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -612,7 +612,7 @@ layers:
   - F12
   - _
   - +
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - Gui+E
   - {type: held}
   - workspaceLayouts
@@ -677,7 +677,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - Gui+E
   - {type: held}
   - workspacesFocus
@@ -742,7 +742,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: Gui+/, s: 'Gui+?'}
   - {type: held}
   - {type: held}
@@ -807,7 +807,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - Gui+M
   - W
   - Ctl+Gui+F
@@ -872,7 +872,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - Meh+F
   - Hyper+Z
   - Meh+B
@@ -937,7 +937,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - X
   - Sft+X
@@ -1002,7 +1002,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+0, s: Gui+)}
   - {t: Gui+-, s: Gui+_}
@@ -1067,7 +1067,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - Ctl+Sft+Q
   - Gui+U
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1132,7 +1132,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1197,7 +1197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: Sft+9, s: Sft+(}
   - {t: Sft+0, s: Sft+)}
   - '{'
@@ -1262,7 +1262,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held}
   - AltarrowsMovements
   - GuiarrowsMovements
@@ -1327,7 +1327,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1392,7 +1392,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -1457,7 +1457,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1522,7 +1522,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held}
   - shellHistory
   - shellDeletion
@@ -1587,7 +1587,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held}
   - Alt+.
   - $$mdi:keyboard-tab$$
@@ -1652,7 +1652,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -1717,7 +1717,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -1782,7 +1782,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - Sft+Gui+.
   - raycastApps
   - tmuxGhostty
@@ -1847,7 +1847,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - raycastAppsTwo
@@ -1912,7 +1912,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
@@ -1977,7 +1977,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
@@ -2042,7 +2042,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -2107,7 +2107,7 @@ layers:
   - Gui+Y
   - {t: Gui+;, s: 'Gui+:'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - Gui+R
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
@@ -2172,7 +2172,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:apple-keyboard-shift$$
@@ -2237,7 +2237,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Defqult, h: toggle}
+  - {t: kuru, h: toggle}
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
