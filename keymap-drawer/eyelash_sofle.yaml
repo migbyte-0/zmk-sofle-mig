@@ -100,7 +100,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-left-bold$$
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-tab$$', h: browser}
+  - browser
   - Ctl+S
   - $$mdi:keyboard-esc$$
   - coding
@@ -125,8 +125,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Ctl+F, h: vimCursor}
-  - {t: '$$mdi:apple-keyboard-control$$', h: layer1}
+  - Ctl+F
+  - layer1
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -484,8 +484,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: layer0, h: toggle}
   - {type: held alternate}
-  - {type: held alternate}
-  - {type: held alternate}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -515,7 +515,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
