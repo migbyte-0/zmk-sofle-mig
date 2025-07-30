@@ -62,7 +62,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        kuru {
             bindings = <
 &kp ESC     &kp N1        &kp N2        &kp N3            &kp N4         &kp N5           &tog 5              &kp N6     &kp N7       &kp N8     &kp N9           &kp N0         &to 0
 &kp TAB     &kp Q         &kp W         &kp F             &kp P          &kp B            &kp LG(DOWN_ARROW)  &kp J      &kp L        &kp U      &kp Y            &kp SEMICOLON  &kp BSLH
